@@ -1,0 +1,44 @@
+25 July 2003
+
+---------------------------------------------------------------------
+
+From: Anonymous
+Subject: VCRplus+ Code that wants to be free
+
+I'm not an expert on anonymous posting/distribution, so I'm
+requesting your help with this.
+
+Background:
+
+In 1992, Ken Shirriff, Curt Welch and Andrew Kinsman published
+a partial analysis of the VCRplus+ "PlusCode" coding scheme
+in Cryptologia 16(3) July 1992, pp 227-234.
+
+They figured out the codes of length 1 through 6, but didn't
+break the 7 and 8 digit codes.
+
+Later, programs implementing their logic appeared on the net,
+adding encoding as well as decoding.
+
+New stuff:
+
+This program expands on those programs, and does the 7 and 8
+digit codes, which includes TV/cable channels over 64 and
+times not an even multiple of 30 minutes, and/or not lasting
+an even multiple of a half hour.
+
+It is therefore useful for personal recording of local sources at
+non-round-number times or on non-broadcast channels, and for
+generating codes that aren't in the newspaper.
+
+The (encoding) algorithm is not fast enough to be used for
+commercial purposes, having a brute-force section in it.  But
+someone might be able to improve on that.
+
+I am not breaking any confidentiality agreements.  I have no
+access to inside information on the system.  This was done
+by reverse engineering.
+
+Please consider posting this on cryptome, under the crypto
+category.
+
